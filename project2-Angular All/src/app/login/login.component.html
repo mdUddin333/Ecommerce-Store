@@ -1,0 +1,32 @@
+<div class="container">
+    <div *ngIf="message" class="alert alert-danger" role="alert">
+        {{message}}
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <div class="wrapper">
+                <h2>Login</h2>
+
+                <form #loginForm="ngForm" (submit)="onFormSubmit(loginForm.value)">
+                    <div class="form-group">
+                        <label for="">Username</label>
+                        <input type="text" class="form-control" name="username" ngModel>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" class="form-control" name="password" ngModel>
+                    </div>
+                    <input type="submit" value="Login" class="btn btn-primary btn-block">
+                </form>
+                <br>
+                <div style="text-align: right;">
+                    <a routerLink="/register">New User? Click Here</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
