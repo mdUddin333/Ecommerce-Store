@@ -1,6 +1,13 @@
 # Ecommerce Store
 Customer can view products, add products to cart, and checkout their cart.
 Employees can view list of all users and a list of order history from all users.
+
+# Team Members:
+* Md Shihab Udiin
+* David Kosal
+* Leyla Shams
+* Jong Kim
+
 # Technologies Used
 * Angular
 * Sprint Boot
@@ -28,10 +35,11 @@ Employees can view list of all users and a list of order history from all users.
 https://github.com/mdUddin333/Ecommerce-Store.git
 
 # Usage
-* 
 * Register for the account .
 * Login to their account.
-* Click on "Add Reimbursement" to add a new request.Input all required field for the form.
-* Click on "View All Reimbursement" to view all the request.
-* Admin account can click on "View All Reimbursement" to view all request.
-* Admin can approve and reject tickets.
+* Click on "Product details" on the navigation bar to view all products.
+* Click on "Add Cart" to add the product on the cart
+* Click on "remove" to delete the products from the cart.
+* Click on "checkout" to place the order.
+* Admin can view the order history from the admin portal.
+* Admin can view all the customer details.
