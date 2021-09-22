@@ -25,9 +25,10 @@ Employees can view list of all users and a list of order history from all users.
 * Add a Total price at the buttom of the cart.
 
 # Getting Started
-https://github.com/mdUddin333/Expense-Reimbursement-System.git
+https://github.com/mdUddin333/Ecommerce-Store.git
 
 # Usage
+* 
 * Register for the account .
 * Login to their account.
 * Click on "Add Reimbursement" to add a new request.Input all required field for the form.
